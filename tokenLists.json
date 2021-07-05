@@ -1,0 +1,13 @@
+{
+  "tokens": [
+    {
+      "name": "Flokishiba",
+      "symbol": "FSHIBA",
+      "address": "0x3c09ba80606d272644a3ce861cd7afbd82b97621",
+      "chainId": 56,
+      "decimals": 18,
+      "position": 5,
+      "logoURI": ""
+    }
+  ]
+}
