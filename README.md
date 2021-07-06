@@ -1,13 +1,13 @@
 
 # Infomation and rule
 
-1. Folder name tokenList.json is a list campaign.
+1. Folder name tokenList.json is a campaign lists.
     
     `How to add an token.`
     ```
-    - Create a file name tokenList.json and write data.
-    - name, symbol, address, decimals, chainId, logoURI is info of token.
-    - position is location of token to display.
+    - Create a file name tokenList.json.
+    - (name, symbol, address, decimals, chainId, logoURI) is info of token.
+    - (position) is location of token to display.
     - Example: 
     {
       "tokens": [
@@ -32,7 +32,7 @@
     * Attention: chainId is 56
     ```
 
-2. /root folder is storage place address list.
+2. /root folder is storage place address lists is accept claim.
 
       `Structure`
       ```
@@ -42,7 +42,7 @@
       
       Replace <tokenId> by token id.
   
-2. Example: 
+      `Example`
       
       Token address: 0x0C3898ABdBE317C10a07fe4913836de3851CbaFC
       
