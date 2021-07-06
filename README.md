@@ -4,6 +4,7 @@
 >1. Folder name tokenList.json is a campaign lists.
     
     `How to add an token.`
+    
     ```
     # Step 1:
     
@@ -32,11 +33,13 @@
     }
     
     * Attention: chainId is 56
+    
     ```
 
 >2. /root folder is storage place address lists is accept claim.
 
       `Structure`
+      
       ```
       root/[tokenAddress]/[tokenId].json
       ```
@@ -51,6 +54,7 @@
       Token Id: 180987475
 
       `path file:`
+      
       ```
       root/0x0C3898ABdBE317C10a07fe4913836de3851CbaFC/180987475.json
       ```
