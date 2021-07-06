@@ -1,13 +1,13 @@
 {
   "tokens": [
     {
-      "name": "Flokishiba",
-      "symbol": "FSHIBA",
-      "address": "0x3c09ba80606d272644a3ce861cd7afbd82b97621",
+      "name": "Floki Shiba",
+      "symbol": "FSHIB",
+      "address": "0x3DAB450ee6451762E72647A05a205dd5697c5C2c",
       "chainId": 56,
-      "decimals": 18,
-      "position": 5,
-      "logoURI": ""
+      "decimals": 9,
+      "position": 1,
+      "logoURI": "https://avatars.githubusercontent.com/u/86533022?s=200&v=4"
     }
   ]
 }
