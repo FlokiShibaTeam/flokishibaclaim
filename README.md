@@ -60,7 +60,7 @@
   
       `Example`
       
-      Token address: 0x0C3898ABdBE317C10a07fe4913836de3851CbaFC
+      Token address: 0x1a26613d922cBb776887BCF91dAf45Ac44da6aeA
       
       Token Id: 180987475
 
