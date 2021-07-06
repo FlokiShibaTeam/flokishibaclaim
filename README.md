@@ -33,7 +33,7 @@
       ]
     }
     
-    # Step 2: Add token in https://claim.jlaunchpad.com/#/partner
+    # Step 2: Add token in https://claim.flokishiba.com/#/partner
     
     a. Click button (Add Campaign), inside: 
     
