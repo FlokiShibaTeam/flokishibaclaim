@@ -1,17 +1,18 @@
 
 # Infomation and rule
 
->1. Folder name tokenList.json is a campaign lists.
+1. Folder name tokenList.json is a campaign lists.
     
     `How to add an token.`
     
     ```
-    # Step 1:
+    # Step 1: add token in github.
     
-    - Create a file name tokenList.json.
-    - (name, symbol, address, decimals, chainId, logoURI) is info of token.
-    - (position) is location of token to display.
-    - Example: 
+    a. Create a file name tokenList.json.
+    $ (name, symbol, address, decimals, chainId, logoURI) is info of token.
+    $ (position) is location of token to display.
+        
+    # Example: 
     {
       "tokens": [
         {
@@ -32,11 +33,21 @@
       ]
     }
     
+    # Step 2: Add token in https://claim.jlaunchpad.com/#/partner
+    
+    a. Click button (Add Campaign), inside: 
+    
+    $ Token Address is address of token.
+    $ Total Campaign Amount is total campaignn amount for an campaign
+    $ Amount Per each claimer is amount for each claim
+    
+    b. Click confirm transaction and accept on metamask.
+    
     * Attention: chainId is 56
     
     ```
 
->2. /root folder is storage place address lists is accept claim.
+2. /root folder is storage place address lists is accept claim.
 
       `Structure`
       
