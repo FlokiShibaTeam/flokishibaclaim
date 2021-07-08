@@ -5,14 +5,12 @@
     `How to add an token.`
     
     ```
-    # Step 1: add token in github.
-    
-    a. Create a file name tokenList.json.
+    # Step 1: Add token to tokenList.json.
     
         $ (name, symbol, address, decimals, chainId, logoURI) is info of token.
         $ (position) is location of token to display.
         
-      Example: 
+      Example: tokenList.json.
     
         {
           "tokens": [
@@ -38,9 +36,9 @@
     
     a. Click button (Add Campaign), inside: 
     
-        $ Token Address is address of token.
-        $ Total Campaign Amount is total campaignn amount for an campaign
-        $ Amount Per each claimer is amount for each claim
+        $ Token Address is address of token. -> 0x....
+        $ Total Campaign Amount is total campaignn amount for an campaign -> Number
+        $ Amount Per each claimer is amount for each claim -> Number
 
     b. Click confirm transaction and accept on metamask.
     
@@ -55,9 +53,9 @@
       ```
       root/[tokenAddress]/[tokenId].json
       ```
-      Replace [tokenAddress] by token address.
+      Replace [tokenAddress] by token address campaign.
       
-      Replace [tokenId] by token id.
+      Replace [tokenId] by token id campaign.
   
       `Example`
       
@@ -71,11 +69,15 @@
       root/0x1a26613d922cBb776887BCF91dAf45Ac44da6aeA/180987475.json
       ```
 
-      `Data`
+      `Data in path file:`
       
       ```
+      0x1a26613d922cBb776887BCF91dAf45Ac44da6aeA is address of user. 
+      
       {
         '0x1a26613d922cBb776887BCF91dAf45Ac44da6aeA': 1,
+        'user 2': 1,
+        'user 3': 1,
         ...
       }
       ```
@@ -85,4 +87,5 @@
       1. Required json file.
       
       2. Folder name and token name is not discus uppercase and lowercase.
+
 
